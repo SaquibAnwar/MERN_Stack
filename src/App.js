@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import GoalList from './components/GoalList/GoalList'
+import NewGoal from './components/NewGoal/NewGoal'
 import './App.css';
 
 // function App() {
@@ -34,6 +35,7 @@ const App = () => {
   return (
     <div>
       <center><h2>Today's Goals</h2></center>
+      <NewGoal />
       <GoalList goals = {goals}/>
     </div>
   );
