@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import GoalList from './components/GoalList'
+import GoalList from './components/GoalList/GoalList'
 import './App.css';
 
 // function App() {
